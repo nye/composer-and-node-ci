@@ -25,6 +25,9 @@ RUN \
     xz-utils \
     zip \
     zsh \
+    libjpeg-dev \
+    libpng-dev \
+    libpng16-16 \
   && apt-get autoremove -y --purge \
   && apt-get autoclean -y \
   && apt-get clean -y \
@@ -47,6 +50,8 @@ RUN \
     php${PHP_VERSION}-sqlite3 \
     php${PHP_VERSION}-xml \
     php${PHP_VERSION}-zip \
+    php${PHP_VERSION}-gd \
+    php${PHP_VERSION}-imagick \
   && apt-get autoremove -y --purge \
   && apt-get autoclean -y \
   && apt-get clean -y \
