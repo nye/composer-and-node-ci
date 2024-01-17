@@ -1,4 +1,4 @@
-IMAGE=carlosalgms/composer-and-node-ci
+IMAGE=asunyer/composer-and-node-ci
 TARGET=Dockerfile
 
 build_8:
