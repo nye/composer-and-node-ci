@@ -43,6 +43,7 @@ FFI
 fileinfo
 filter
 ftp
+gd
 gettext
 hash
 iconv
