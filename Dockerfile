@@ -1,6 +1,6 @@
 FROM ubuntu:jammy
 
-LABEL maintainer="Carlos A. Gomes <carlos.algms@gmail.com>"
+LABEL maintainer="Albert Sunyer <albert@nye.cat>"
 
 RUN \
   apt-get update \
